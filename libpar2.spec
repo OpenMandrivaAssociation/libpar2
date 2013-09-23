@@ -1,14 +1,14 @@
 %define major 0
 %define beta %{nil}
 %define scmrev %{nil}
-%define libname %mklibname par2 %{major}
+%define libname %mklibname par2_ %{major}
 %define devname %mklibname par2 -d
 
 Name: libpar2
 Version: 0.2
 %if "%{beta}" == ""
 %if "%{scmrev}" == ""
-Release: 1
+Release: 2
 Source: http://sourceforge.net/projects/parchive/files/libpar2/%{version}/libpar2-%{version}.tar.gz
 %else
 Release: 0.%{scmrev}.1
