@@ -8,7 +8,7 @@ Name: libpar2
 Version: 0.2
 %if "%{beta}" == ""
 %if "%{scmrev}" == ""
-Release: 2
+Release: 3
 Source: http://sourceforge.net/projects/parchive/files/libpar2/%{version}/libpar2-%{version}.tar.gz
 %else
 Release: 0.%{scmrev}.1
