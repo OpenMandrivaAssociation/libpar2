@@ -57,7 +57,7 @@ Development files (Headers etc.) for %{name}.
 %else
 %setup -q -n %{name}
 %endif
-%apply_patches
+%autopatch -p1
 libtoolize --force
 autoreconf -f
 %configure
