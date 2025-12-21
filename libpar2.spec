@@ -30,6 +30,11 @@ Patch1: libpar2-0.2-bugfixes.patch
 URL: https://sourceforge.net/projects/parchive/files/libpar2/
 License: GPL
 Group: System/Libraries
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires: stdc++-devel
 BuildRequires: pkgconfig(sigc++-2.0)
 
